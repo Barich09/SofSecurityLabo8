@@ -2,7 +2,7 @@
   "version": "2.4.1",
   "summary": {
     "title": "Working on the Train",
-    "owner": "",
+    "owner": "Ayman Barich",
     "description": "Threat model for employees working on the train during commute.",
     "id": 0
   },
@@ -827,7 +827,7 @@
       }
     ],
     "diagramTop": 1,
-    "reviewer": "",
+    "reviewer": "Michael Boeynaems",
     "threatTop": 13
   }
 }
