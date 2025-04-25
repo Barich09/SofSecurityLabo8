@@ -1,7 +1,7 @@
 {
   "version": "2.4.1",
   "summary": {
-    "title": "Office Work on Train - Threat Model",
+    "title": "Simpel Werkschema op de Trein",
     "owner": "Ayman Barich",
     "description": "",
     "id": 0
@@ -981,9 +981,7 @@
                 "denialOfService": 0
               }
             },
-            "labels": [
-              "Documenten,\nreal-time edits"
-            ],
+            "labels": ["Documenten,\nreal-time edits"],
             "id": "c4fe5768-aef0-4b11-bd15-70463a0f2b66",
             "source": {
               "cell": "589d942b-0d70-4cb6-afbb-317d3c4aedb9",
@@ -1046,9 +1044,7 @@
                 "denialOfService": 0
               }
             },
-            "labels": [
-              "Gesprekken, metadata"
-            ],
+            "labels": ["Gesprekken, metadata"],
             "id": "25c31fa0-28b0-4bc8-bdb8-15071d13bfc1",
             "source": {
               "cell": "b8e98ff5-3562-4927-86e5-8ead0a39fe34",
@@ -1114,9 +1110,7 @@
                 }
               ]
             },
-            "labels": [
-              "\nInternetverkeer"
-            ],
+            "labels": ["\nInternetverkeer"],
             "id": "cbebe0da-fef3-4719-853c-b561b75b0beb",
             "source": {
               "x": 360,
@@ -1159,9 +1153,7 @@
               "protocol": "",
               "threats": []
             },
-            "labels": [
-              "Beveiligde verbinding"
-            ],
+            "labels": ["Beveiligde verbinding"],
             "id": "846899b0-4c00-43ae-8bfb-1709dbf2a4c2",
             "source": {
               "x": 360,
@@ -1209,9 +1201,7 @@
               "protocol": "",
               "threats": []
             },
-            "labels": [
-              "Documenten,\noffline werk"
-            ],
+            "labels": ["Documenten,\noffline werk"],
             "id": "7afda7d5-e881-46bf-9496-9f8dfe1e2cc0",
             "source": {
               "x": 300,
@@ -1254,9 +1244,7 @@
               "protocol": "",
               "threats": []
             },
-            "labels": [
-              "Visuele toegang,\nafluisteren"
-            ],
+            "labels": ["Visuele toegang,\nafluisteren"],
             "id": "4af5f97d-42bc-42d3-8f34-ce40b1fcad1a",
             "source": {
               "x": -60,
@@ -1308,9 +1296,7 @@
               "protocol": "",
               "threats": []
             },
-            "labels": [
-              "Kwaadaardig verkeer,\nspoofed logins"
-            ],
+            "labels": ["Kwaadaardig verkeer,\nspoofed logins"],
             "id": "022642fc-91c5-4712-9289-10c2e43e7d45",
             "source": {
               "x": 0,
@@ -1395,9 +1381,7 @@
                 "denialOfService": 1
               }
             },
-            "labels": [
-              "Login, bestanden, samenwerking"
-            ],
+            "labels": ["Login, bestanden, samenwerking"],
             "id": "8e53967c-937b-4705-9518-2521eac0f982",
             "source": {
               "cell": "b8e98ff5-3562-4927-86e5-8ead0a39fe34",
