@@ -1,7 +1,7 @@
 {
   "version": "2.4.1",
   "summary": {
-    "title": "Simpel Werkschema op de Trein",
+    "title": "Office Work on Train - Threat Model",
     "owner": "Ayman Barich",
     "description": "",
     "id": 0
@@ -28,7 +28,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Public Wi-Fi, \nMobile Hotspot"
+                "text": "Publieke Wi-Fi, Mobiel Netwerk"
               }
             },
             "visible": true,
@@ -37,7 +37,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Public Wi-Fi, \nMobile Hotspot",
+              "name": "Publieke Wi-Fi, Mobiel Netwerk",
               "description": "",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -54,7 +54,7 @@
             },
             "attrs": {
               "label": {
-                "text": "Corporate Network"
+                "text": "Intern netwerk"
               }
             },
             "visible": true,
@@ -63,7 +63,7 @@
             "zIndex": -1,
             "data": {
               "type": "tm.BoundaryBox",
-              "name": "Corporate Network",
+              "name": "Intern netwerk",
               "description": "Bedrijfsnetwerk via VPN",
               "isTrustBoundary": true,
               "hasOpenThreats": false
@@ -80,7 +80,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Employee"
+                "text": "Werknemer"
               },
               "body": {
                 "stroke": "#333333",
@@ -176,7 +176,7 @@
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
-              "name": "Employee",
+              "name": "Werknemer",
               "description": "Werknemer op de trein",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -196,7 +196,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Attacker"
+                "text": "Aanvaller"
               },
               "body": {
                 "stroke": "red",
@@ -292,7 +292,7 @@
             "zIndex": 2,
             "data": {
               "type": "tm.Actor",
-              "name": "Attacker",
+              "name": "Aanvaller",
               "description": "Iemand op dezelfde trein of een hacker",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -497,7 +497,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Phone App\n/ Communication Tool"
+                "text": "Computer"
               },
               "body": {
                 "stroke": "red",
@@ -593,7 +593,7 @@
             "zIndex": 4,
             "data": {
               "type": "tm.Process",
-              "name": "Phone App\n/ Communication Tool",
+              "name": "Computer",
               "description": "Teams...",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -981,7 +981,9 @@
                 "denialOfService": 0
               }
             },
-            "labels": ["Documenten,\nreal-time edits"],
+            "labels": [
+              "Documenten,\nreal-time edits"
+            ],
             "id": "c4fe5768-aef0-4b11-bd15-70463a0f2b66",
             "source": {
               "cell": "589d942b-0d70-4cb6-afbb-317d3c4aedb9",
@@ -1044,7 +1046,9 @@
                 "denialOfService": 0
               }
             },
-            "labels": ["Gesprekken, metadata"],
+            "labels": [
+              "Gesprekken, metadata"
+            ],
             "id": "25c31fa0-28b0-4bc8-bdb8-15071d13bfc1",
             "source": {
               "cell": "b8e98ff5-3562-4927-86e5-8ead0a39fe34",
@@ -1110,7 +1114,9 @@
                 }
               ]
             },
-            "labels": ["\nInternetverkeer"],
+            "labels": [
+              "\nInternetverkeer"
+            ],
             "id": "cbebe0da-fef3-4719-853c-b561b75b0beb",
             "source": {
               "x": 360,
@@ -1153,7 +1159,9 @@
               "protocol": "",
               "threats": []
             },
-            "labels": ["Beveiligde verbinding"],
+            "labels": [
+              "Beveiligde verbinding"
+            ],
             "id": "846899b0-4c00-43ae-8bfb-1709dbf2a4c2",
             "source": {
               "x": 360,
@@ -1201,7 +1209,9 @@
               "protocol": "",
               "threats": []
             },
-            "labels": ["Documenten,\noffline werk"],
+            "labels": [
+              "Documenten,\noffline werk"
+            ],
             "id": "7afda7d5-e881-46bf-9496-9f8dfe1e2cc0",
             "source": {
               "x": 300,
@@ -1244,7 +1254,9 @@
               "protocol": "",
               "threats": []
             },
-            "labels": ["Visuele toegang,\nafluisteren"],
+            "labels": [
+              "Visuele toegang,\nafluisteren"
+            ],
             "id": "4af5f97d-42bc-42d3-8f34-ce40b1fcad1a",
             "source": {
               "x": -60,
@@ -1296,7 +1308,9 @@
               "protocol": "",
               "threats": []
             },
-            "labels": ["Kwaadaardig verkeer,\nspoofed logins"],
+            "labels": [
+              "Kwaadaardig verkeer,\nspoofed logins"
+            ],
             "id": "022642fc-91c5-4712-9289-10c2e43e7d45",
             "source": {
               "x": 0,
@@ -1354,7 +1368,7 @@
                   "status": "Mitigated",
                   "severity": "High",
                   "type": "Tampering",
-                  "description": "Aanvallers onderscheppen en manipuleren netwerkverkeer, wat kan leiden tot gewijzigde of ge\u00efnjecteerde documenten.",
+                  "description": "Aanvallers onderscheppen en manipuleren netwerkverkeer, wat kan leiden tot gewijzigde of geïnjecteerde documenten.",
                   "mitigation": "VPN-gebruik, TLS/HTTPS, netwerkbeveiliging.",
                   "modelType": "STRIDE",
                   "new": false,
@@ -1368,7 +1382,7 @@
                   "severity": "High",
                   "type": "Denial of service",
                   "description": "Zonder internetverbinding kan de werknemer niet inloggen op MS Office Online en krijgt dus ook geen toegang tot documenten in de cloud. Dit verstoort het werk volledig.",
-                  "mitigation": "Voorzie in offline modus in MS Office, synchroniseer lokale kopie\u00ebn van belangrijke bestanden op voorhand.",
+                  "mitigation": "Voorzie in offline modus in MS Office, synchroniseer lokale kopieën van belangrijke bestanden op voorhand.",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 15,
@@ -1381,7 +1395,9 @@
                 "denialOfService": 1
               }
             },
-            "labels": ["Login, bestanden, samenwerking"],
+            "labels": [
+              "Login, bestanden, samenwerking"
+            ],
             "id": "8e53967c-937b-4705-9518-2521eac0f982",
             "source": {
               "cell": "b8e98ff5-3562-4927-86e5-8ead0a39fe34",
